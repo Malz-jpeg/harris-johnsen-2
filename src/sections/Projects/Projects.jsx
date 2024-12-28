@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
+import Homzy from '../../assets/Homzy_Logo_WhiteBackground.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -14,25 +14,25 @@ function Projects() {
           src={viberr}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Viberr"
-          p="Streaming App"
+          p="(Coming Soon)"
         />
         <ProjectCard
           src={freshBurger}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          p="(Coming Soon)"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={Homzy}
+          link="https://real-estate-reactjs-website-project.vercel.app/"
+          h3="Homzy"
+          p="Real Estate Website"
         />
         <ProjectCard
           src={fitLift}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
-          p="Fitness App"
+          p="(Coming Soon)"
         />
       </div>
     </section>
